@@ -21,6 +21,7 @@ let yesScale = 1;
 
 // When NO is clicked → shrink NO and grow YES
 noBtn.addEventListener("click", () => {
+  alert("Woow, really😒? Try again 😤");
 
   // Shrink the NO button a bit each click
   noScale -= 0.1;
@@ -50,4 +51,5 @@ setInterval(() => {
 
   setTimeout(() => heart.remove(), 6000);
 }, 500);
+
 
